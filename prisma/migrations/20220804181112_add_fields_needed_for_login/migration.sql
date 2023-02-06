@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "image" TEXT,
+ADD COLUMN     "name" TEXT,
+ALTER COLUMN "wallet" DROP NOT NULL,
+ALTER COLUMN "firstName" DROP NOT NULL;

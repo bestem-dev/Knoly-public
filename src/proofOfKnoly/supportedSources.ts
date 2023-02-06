@@ -1,0 +1,1 @@
+export const supportedSources = ["github"] as const

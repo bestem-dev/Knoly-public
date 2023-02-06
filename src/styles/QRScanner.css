@@ -1,0 +1,29 @@
+.QR-cam-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 100%;
+  --rect-size: 300px;
+  box-shadow: 10px;
+  clip-path: polygon( evenodd,
+    /* outer rect */
+    0 0, /* top - left */
+    100% 0, /* top - right */
+    100% 100%, /* bottom - right */
+    0% 100%, /* bottom - left */
+    0 0, /* and top - left again */
+    /* do the same with inner rect */
+    calc(50% - var(--rect-size) / 2) calc(50% - var(--rect-size) / 2),
+    calc(50% + var(--rect-size) / 2) calc(50% - var(--rect-size) / 2),
+    calc(50% + var(--rect-size) / 2) calc(50% + var(--rect-size) / 2),
+    calc(50% - var(--rect-size) / 2) calc(50% + var(--rect-size) / 2),
+    calc(50% - var(--rect-size) / 2) calc(50% - var(--rect-size) / 2)
+  );
+  /* can cut through all this */
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  /* display: flex;
+  justify-content: center; */
+}

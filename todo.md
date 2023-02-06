@@ -1,0 +1,63 @@
+# To-do
+
+- Fix FABs on user page
+- Improve login flow. We can't use index as a default router.
+- Add revalidation endpoint and convenience function
+- Switch pages to SSG
+  - QR
+  - User Page
+  - Index
+- Add topbar to offline fallback page
+- Add custom 404 page
+- Add custom 500 page
+- Create new wallet-less login flow
+- Add settings button on side bar
+- Add settings page with: [delete profile, ] options
+- Move image-bucket to new Google account.
+- Delete old gcp and disable billing
+- Fix type in pwa installed check
+- Replace errors and infos with MUI Alerts
+- Add a long description (Bio) for users (currently there's only a short description which breaks UI when it's too long)
+- Add success messages with MUI Snackbars
+- Add support for installing in safari with [a2hs.js](https://www.npmjs.com/package/a2hs.js)
+- Investigate in depth how nextauth's `session` getters work.
+- Find a better way to deal with secrets
+- Learn about [IAM](https://medium.com/poka-techblog/the-best-way-to-store-secrets-in-your-app-is-not-to-store-secrets-in-your-app-308a6807d3ed) permissions
+- Delete Vercel deployment
+- Add [i18n](https://www.npmjs.com/package/next-i18next)
+- Build Testing system
+- Add more logs
+- Create frontend logger
+  - Store logs in a bucket or volume
+- delete userList Page
+- delete old login Page
+- Remove old next auth tables from db
+- QR UX
+  - Add Button to select image to read qr from
+- Add React error boundaries
+- Custom sign in error page
+- Redirect to the current url
+
+# Bugs:
+- On mobile, when the user isn't connected to wallet connect. Once they get back from metamask the signing message doesn't show up and the button is blocked, so the user has to re-load. We added a timeout to re-enable the button.
+- Get session might not return a session client-side sometimes.
+- Sometimes the validation button won't work. No logs of api requests show up on frontend
+
+# Done
+- Move db to new account
+- react-pwa-install-prompt is not working. Remove and find another solution
+- Next fails to write images to cache in the docker image `[Error: EACCES: permission denied, mkdir '/app/.next/cache/images']` - Switched app to be root in the container
+- When screen width is greater than the video source the dark overlay gets out of places
+- Setup source maps
+- Add appbar with
+  - "Sign up/login" for non-authenticated users 
+- Add "Login to Validate" for non-authenticated users on user page
+- Change logs to some kind of separate http transport
+- Implement branding
+- Add link copy Button under qr
+- Fix PWA Metadata
+- Add button to switch camera in qr scanner
+- Create a user wallet-id mapping to optimize the getSession query. I added it to the jtw
+- Fix mobile wallet connection
+- Remove unused depencdencies
+- Download fonts and serve them. CDN doesn't seem to work on deployment [SO Link](https://stackoverflow.com/questions/72399203/google-fonts-not-loading-in-next-js-when-deployed-to-vercel)

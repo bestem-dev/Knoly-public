@@ -1,0 +1,5 @@
+declare module "nprogress"
+declare module "multer"
+declare module "react-swipeable-views"
+declare module "react-swipeable-views-utils"
+declare module "react-qr-scanner"

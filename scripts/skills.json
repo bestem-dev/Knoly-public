@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Python",
+        "description": "Lenguaje de Programación"
+    },
+    {
+        "name": "Javascript",
+        "description": "Lenguaje de Programación"
+    },
+    {
+        "name": "Solidity",
+        "description": "Lenguaje de Programación"
+    },
+    {
+        "name": "SQL",
+        "description": "Lenguaje de consulta estructurada"
+    },
+    {
+        "name": "Project Management",
+        "description": "Manejo de Proyectos"
+    },
+    {
+        "name": "SEO",
+        "description": "Optimización de motores de búsqueda"
+    },
+    {
+        "name": "Ads",
+        "description": "Manejar campañas de publicidad web"
+    },
+    {
+        "name": "UX Design",
+        "description": "Diseño de experiecias de usuario"
+    },
+    {
+        "name": "UI Design",
+        "description": "Diseño de interfaces de usuario"
+    },
+        {
+        "name": "Marketing",
+        "description": ""
+    },
+    {
+        "name": "Community Management",
+        "description": "Manejo de comunidades"
+    },
+    {
+        "name": "Desarrollo de negocios",
+        "description": ""
+    },
+    {
+        "name": "Creación de contenido",
+        "description": ""
+    },
+    {
+        "name": "SEM",
+        "description": " Marketing en motores de búsqueda"
+    },
+    {
+        "name": "Diseño Gráfico",
+        "description": ""
+    },
+    {
+        "name": "Abogacía",
+        "description": ""
+    },
+    {
+        "name": "Inversión",
+        "description": ""
+    },
+    {
+        "name": "Emprendedorismo",
+        "description": ""
+    },
+    {
+        "name": "Project Management",
+        "description": "Manejo de proyectos"
+    },
+    {
+        "name": "Web3",
+        "description": " Conocimiento de tecnologías Web3"
+    }
+]
